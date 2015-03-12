@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/htc_abstract_pattern"
+    tools:context=".ShareActivity" >
+
+    <ImageButton
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icontexto_user_web20_facebook"
+        android:contentDescription="@string/fb"
+        android:onClick="sendMessage" />
+
+    <ImageButton
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/facebook"
+        android:layout_below="@+id/facebook"
+        android:src="@drawable/chat"
+        android:contentDescription="@string/txt"
+        android:onClick="sendMessage" />
+
+    <ImageButton
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chat"
+        android:layout_below="@+id/chat"
+        android:src="@drawable/mail3"
+        android:contentDescription="@string/mail"
+        android:onClick="sendMessage" />
+
+</RelativeLayout>

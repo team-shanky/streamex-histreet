@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HiStreet!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_draw">DrawActivity</string>
+    <string name="title_activity_anview">AnviewActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="name">Map Name</string>
+    <string name="draw">Draw Map</string>
+    <string name="share">Share Map</string>
+    <string name="search">Search Map</string>
+    <string name="append">Append Map</string>
+    <string name="login">Login</string>
+    <string name="find">Locate My Map</string>
+    <string name="cam">Capture the Landmark</string>
+    <string name="txt">Text Your Location</string>
+    <string name="fb">Update Your Location</string>
+    <string name="add">Add Location To Your Map</string>
+    <string name="mail">Mail Your Location</string>
+    <string name="save">Save Your Location</string>
+    <string name="ima">Image Name</string>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <string name="title_activity_gps">GPSActivity</string>
+    <string name="title_activity_locate">Locate</string>
+
+</resources>
